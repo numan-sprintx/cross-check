@@ -32,18 +32,18 @@ const FAQItem: React.FC<FAQItemProps> = ({
       >
         <button
           onClick={onToggle}
-          className="w-full px-6 py-5 text-left flex justify-between items-center hover:bg-gray-50 transition-colors"
+          className="w-full px-6 py-5 text-left flex items-center hover:bg-gray-50 transition-colors"
         >
-          <span className="text-base font-medium text-gray-900 pr-4">
-            {question}
-          </span>
-          <div className="flex-shrink-0">
+          <div className="pr-5">
             {isOpen ? (
               <Minus className="w-5 h-5 text-gray-600" />
             ) : (
               <Plus className="w-5 h-5 text-gray-600" />
             )}
           </div>
+          <span className="text-base font-medium text-gray-900 pr-4">
+            {question}
+          </span>
         </button>
       </div>
       {isOpen && (

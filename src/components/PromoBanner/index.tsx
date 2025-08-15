@@ -5,7 +5,7 @@ import star from "../../assets/svgs/start.svg";
 const PromoBanner: React.FC = () => {
     return (
         <div
-            className="relative text-white py-16 px-6 overflow-hidden bg-cover bg-center bg-no-repeat bg-[url('/hero.svg')]"
+            className="relative text-white py-16 px-6 mt-10 overflow-hidden bg-cover bg-center bg-no-repeat bg-[url('/hero.svg')]"
         >
             {/* Decorative Sparkles */}
             <div className="absolute top-20 right-20">

@@ -5,6 +5,8 @@ import { ResolveBugs } from "./components/resolve-bugs";
 import FAQSection from "./components/FAQSection";
 import Footer from "./components/Footer";
 import PromoBanner from "./components/PromoBanner";
+import TestimonialSection from "./components/TestimonialSection";
+import UnifiedViewSection from "./components/UnifiedViewSection";
 
 const App: React.FC = () => {
   return (
@@ -12,6 +14,8 @@ const App: React.FC = () => {
       <Hero />
       <Features />
       <ResolveBugs />
+      <UnifiedViewSection />
+      <TestimonialSection />
       <FAQSection />
       <PromoBanner />
       <Footer />
