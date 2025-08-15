@@ -24,11 +24,13 @@ const FAQItem: React.FC<FAQItemProps> = ({
   isFirst,
 }) => {
   return (
-    <div className="mb-6">
+    <div
+      className="mb-6 bg-white shadow-[0_24.556px_32.742px_-14.734px_rgba(149,149,149,0.25)]"
+      style={{ borderRadius: "4.911px" }}
+    >
       <div
-        className={`border border-gray-200 ${
-          isFirst && isOpen ? "bg-gray-50" : "bg-white"
-        } ${isOpen ? "rounded-t-lg" : "rounded-lg"}`}
+        className={`border border-gray-200 ${isFirst && isOpen ? "bg-gray-50" : "bg-white"
+          } ${isOpen ? "rounded-t-lg" : "rounded-lg"}`}
       >
         <button
           onClick={onToggle}
