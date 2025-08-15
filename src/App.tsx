@@ -2,6 +2,9 @@ import "./App.css";
 import Hero from "./components/hero/index";
 import Features from "./components/features/Features";
 import { ResolveBugs } from "./components/resolve-bugs";
+import FAQSection from "./components/FAQSection";
+import Footer from "./components/Footer";
+import PromoBanner from "./components/PromoBanner";
 
 const App: React.FC = () => {
   return (
@@ -9,6 +12,9 @@ const App: React.FC = () => {
       <Hero />
       <Features />
       <ResolveBugs />
+      <FAQSection />
+      <PromoBanner />
+      <Footer />
     </div>
   );
 };
